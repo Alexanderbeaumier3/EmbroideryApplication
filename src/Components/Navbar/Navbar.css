@@ -1,0 +1,114 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Ensuring a clean, readable font is used */
+}
+
+/* Navbar container styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo and company name styling */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds space between the logo image and the paragraph */
+}
+
+.nav-logo img {
+    width: 40px; /* Adjust logo size */
+    height: 40px; /* Adjust logo size */
+}
+
+.nav-logo p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Navigation menu styling */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Spacing between menu items */
+}
+
+.nav-menu li {
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative; /* For positioning the hr element */
+    font-size: 16px;
+    color: #555;
+}
+
+.nav-menu li hr {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    border: none;
+    height: 3px;
+    background-color: #0056b3; /* Bright blue to highlight the 'Shop' tab */
+    border-radius: 2px;
+    opacity: 0; /* Hide by default */
+    transition: opacity 1s;
+}
+
+.nav-menu li:hover hr {
+    opacity: 1; /* Show underline on hover */
+}
+
+/* Right section styling */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Spacing between login button and cart */
+}
+
+/* Login button styling */
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    filter: drop-shadow(0 0 2px rgba(132, 0, 255, 0.5)); /* Add a subtle shadow */
+}
+
+/* Cart icon and count styling */
+.nav-cart {
+    display: flex;
+    align-items: center;
+}
+
+.nav-cart img {
+    width: 24px;
+    height: 24px;
+}
+
+.nav-cart-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    background-color: #ff0000;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+}

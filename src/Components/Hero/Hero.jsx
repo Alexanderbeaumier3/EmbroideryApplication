@@ -10,7 +10,7 @@ const Hero = () => {
         <div className='hero'>
             <div className='hero-content'>
                 <h1 className='hero-title'>Be Your Own Brand</h1>
-                <p className='hero-tagline'>Featured Items</p>
+                <p className='hero-tagline'>Shop Customizable Products</p>
                
                 <div className="hero-boxes">
                     <div className="hero-box">

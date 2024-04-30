@@ -1,10 +1,10 @@
 import React from "react";
+import Hero from "../Hero/Hero";
 
 const Shop = () => {
     return (
         <div>
-            <h1>Shop</h1>
-            <p>Welcome to our shop!</p>
+            <Hero/>
         </div>
     );
 }

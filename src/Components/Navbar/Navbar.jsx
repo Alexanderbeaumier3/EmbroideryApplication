@@ -27,14 +27,16 @@ const Navbar = () => {
                     <Link style={{ textDecoration: 'none' }} to='/pre-made'>Pre-Made{menu === "pre-made" ? <hr /> : null}</Link>
                 </li>
             </ul>
-            <Link to='/login'>
-                <button className="nav-login">Login</button>
-            </Link>
-            <div className="nav-cart">
-                <Link to='/cart'>
-                    <img src={cart_icon} alt="Shopping Cart" />
-                </Link>
-                <div className="nav-cart-count">0</div>
+            <div className="nav-right">
+              <Link to='/login'>
+                  <button className="nav-login">Login</button>
+              </Link>
+              <div className="nav-cart">
+                  <Link to='/cart'>
+                      <img src={cart_icon} alt="Shopping Cart" />
+                  </Link>
+                  <div className="nav-cart-count">0</div>
+              </div>
             </div>
         </nav>
     );

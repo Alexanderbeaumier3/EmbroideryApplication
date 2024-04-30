@@ -70,7 +70,7 @@ body {
 .nav-right {
     display: flex;
     align-items: center;
-    gap: 10px; /* Spacing between login button and cart */
+    justify-content: flex-end; /* Spacing between login button and cart */
 }
 
 /* Login button styling */
@@ -79,15 +79,15 @@ button {
     background-color: #007BFF;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px; 
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
+
 button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-    filter: drop-shadow(0 0 2px rgba(132, 0, 255, 0.5)); /* Add a subtle shadow */
+    background-color: #0872e4; /* Darker blue on hover */
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.5)); 
 }
 
 /* Cart icon and count styling */
@@ -97,8 +97,8 @@ button:hover {
 }
 
 .nav-cart img {
-    width: 24px;
-    height: 24px;
+    width: 30px; /* Updated from 24px to 30px */
+    height: 30px; /* Updated from 24px to 30px */
 }
 
 .nav-cart-count {
@@ -112,3 +112,4 @@ button:hover {
     font-size: 12px;
     border-radius: 10px;
 }
+

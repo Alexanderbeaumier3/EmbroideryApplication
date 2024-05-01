@@ -7,6 +7,17 @@ import flag from './Assets/flags.webp';
 import fleeceThrowBlanket from './Assets/fleeceThrowBlanket.webp';
 import graduationSash from './Assets/graduationSash.webp';
 import polo from './Assets/polo.jpeg';
+import womensTShirt from './Assets/womanShirt.jpeg';
+import womansJeans from './Assets/womansJeans.jpeg';
+import WomanEmbroidery1 from './womanEmb1.jpeg';
+import WomanEmbroidery2 from './womanEmb2.jpeg';
+import WomanEmbroidery3 from './womanEmb3.jpeg';
+import ManEmbroidery1 from './manEmb1.jpeg';
+import ManEmbroidery2 from './manEmb2.jpeg';
+import ManEmbroidery3 from './manEmb3.jpeg';
+import beanieEmbroidery from './beanieEmb.jpeg';
+import hatEmbroidery from './hatEmb.jpeg';
+import sashEmbroidery from './sashEmb.jpeg';
 
 let custom_products = [
     {
@@ -81,7 +92,78 @@ let custom_products = [
         new_price: 40.0,
         old_price: 50.0,
     },
-
+    {
+        id: 10,
+        name: "Woman's T-Shirt",
+        catagory: "Customizable",
+        image: womensTShirt,
+        new_price: 35.0,
+        old_price: 45.0,
+    },
+    {
+        id: 11,
+        name: "Woman's Jeans",
+        catagory: "Customizable",
+        image: womansJeans,
+        new_price: 50.0,
+        old_price: 60.0,
+    },
+    {
+        id: 12,
+        name: "Womens Hummingbird Shirt Embroidery",
+        catagory: "Customizable",
+        image: WomanEmbroidery1,
+        new_price: 35.0,
+    },
+    {
+        id: 13,
+        name: "Womens flower Jean Embroidery",
+        catagory: "Customizable",
+        image: WomanEmbroidery2,
+        new_price: 45.0,
+    },
+    {
+        id: 14,
+        name: "Work Shirt Embroidery",
+        catagory: "Customizable",
+        image: WomanEmbroidery3,
+        new_price: 35.0,
+    },
+    {
+        id: 15,
+        name: "Polo Work Logo Embroidery",
+        catagory: "Customizable",
+        image: ManEmbroidery1,
+        new_price: 40.0,
+    },
+    {
+        id: 16,
+        name: "T-Shirt Logo Embroidery",
+        catagory: "Customizable",
+        image: ManEmbroidery2,
+        new_price: 35.0,
+    },
+    {
+        id: 17,
+        name: "Beanie Logo Embroidery",
+        catagory: "Customizable",
+        image: ManEmbroidery3,
+        new_price: 25.0,
+    },
+    {
+        id: 18,
+        name: "Hat Logo Embroidery",
+        catagory: "Customizable",
+        image: beanieEmbroidery,
+        new_price: 25.0,
+    },
+    {
+        id: 19,
+        name: "Sash Logo Embroidery",
+        catagory: "Customizable",
+        image: sashEmbroidery,
+        new_price: 35.0,
+    },
     ] 
 
 export default custom_products;

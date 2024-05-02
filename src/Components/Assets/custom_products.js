@@ -1,14 +1,13 @@
-import menShirt from './Assets/menShirt.jpeg';
-import youthShirt from './Assets/youthShirt.jpeg';
-import hoodie from './Assets/hoodie.jpeg';
-import womensSweatshirt from './Assets/womensSweatshirt.avif';
-import hat from './Assets/hat.jpeg';
-import flag from './Assets/flags.webp';
-import fleeceThrowBlanket from './Assets/fleeceThrowBlanket.webp';
-import graduationSash from './Assets/graduationSash.webp';
-import polo from './Assets/polo.jpeg';
-import womensTShirt from './Assets/womanShirt.jpeg';
-import womansJeans from './Assets/womansJeans.jpeg';
+import menShirt from './menShirt.jpeg';
+import youthShirt from './youthShirt.jpeg';
+import hoodie from './hoodie.jpeg';
+import hat from './hat.jpeg';
+import flag from './flags.webp';
+import fleeceThrowBlanket from './fleeceThrowBlanket.webp';
+import graduationSash from './graduationSash.webp';
+import polo from './polo.jpeg';
+import womensTShirt from './womanShirt.jpeg';
+import womansJeans from './womansJeans.jpeg';
 import WomanEmbroidery1 from './womanEmb1.jpeg';
 import WomanEmbroidery2 from './womanEmb2.jpeg';
 import WomanEmbroidery3 from './womanEmb3.jpeg';
@@ -23,7 +22,7 @@ let custom_products = [
     {
         id: 1,
         name: "Adult T-Shirt",
-        catagory: "Customizable",
+        category: "Customizable",
         image: menShirt,
         new_price: 35.0,
         old_price: 45.0,
@@ -31,7 +30,7 @@ let custom_products = [
     {
         id: 2,
         name: "Childrens T-Shirt",
-        catagory: "Customizable",
+        category: "Customizable",
         image: youthShirt,
         new_price: 20.0,
         old_price: 30.0,
@@ -39,128 +38,120 @@ let custom_products = [
     {
         id: 3,
         name: "Adult Hoodie",
-        catagory: "Customizable",
+        category: "Customizable",
         image: hoodie,
         new_price: 50.0,
         old_price: 60.0,
     },
     {
         id: 4,
-        name: "Womans Sweatshirt",
-        catagory: "Customizable",
-        image: womensSweatshirt,
-        new_price: 45.0,
-        old_price: 55.0,
-    },
-    {
-        id: 5,
         name: "Hat",
-        catagory: "Customizable",
+        category: "Customizable",
         image: hat,
         new_price: 25.0,
         old_price: 35.0,
     },
     {
-        id: 6,
-        name: "Flag",
-        catagory: "Customizable",
-        image: flag,
-        new_price: 40.0,
-        old_price: 50.0,
-    },
-    {
-        id: 7,
-        name: "Fleece Throw Blanket",
-        catagory: "Customizable",
-        image: fleeceThrowBlanket,
-        new_price: 60.0,
-        old_price: 70.0,
-    },
-    {
-        id: 8,
-        name: "Graduation Sash",
-        catagory: "Customizable",
-        image: graduationSash,
-        new_price: 30.0,
-        old_price: 40.0,
-        },
-    {
-        id: 9,
-        name: "Polo",
-        catagory: "Customizable",
-        image: polo,
-        new_price: 40.0,
-        old_price: 50.0,
-    },
-    {
-        id: 10,
+        id: 5,
         name: "Woman's T-Shirt",
-        catagory: "Customizable",
+        category: "Customizable",
         image: womensTShirt,
         new_price: 35.0,
         old_price: 45.0,
     },
     {
-        id: 11,
+        id: 6,
+        name: "Fleece Throw Blanket",
+        category: "Customizable",
+        image: fleeceThrowBlanket,
+        new_price: 60.0,
+        old_price: 70.0,
+    },
+    {
+        id: 7,
+        name: "Graduation Sash",
+        category: "Customizable",
+        image: graduationSash,
+        new_price: 30.0,
+        old_price: 40.0,
+        },
+    {
+        id: 8,
+        name: "Polo",
+        category: "Customizable",
+        image: polo,
+        new_price: 40.0,
+        old_price: 50.0,
+    },
+    {
+        id: 9,
+        name: "Hat Embroidery",
+        category: "Customizable",
+        image: hatEmbroidery,
+        new_price: 35.0,
+        old_price: 45.0,
+    },
+    {
+        id: 10,
         name: "Woman's Jeans",
-        catagory: "Customizable",
+        category: "Customizable",
         image: womansJeans,
         new_price: 50.0,
         old_price: 60.0,
     },
     {
-        id: 12,
+        id: 11,
         name: "Womens Hummingbird Shirt Embroidery",
-        catagory: "Customizable",
+        category: "Pre-Made",
         image: WomanEmbroidery1,
         new_price: 35.0,
     },
     {
-        id: 13,
+        id: 12,
         name: "Womens flower Jean Embroidery",
-        catagory: "Customizable",
+        category: "Pre-Made",
         image: WomanEmbroidery2,
         new_price: 45.0,
     },
     {
-        id: 14,
+        id: 13,
         name: "Work Shirt Embroidery",
-        catagory: "Customizable",
+        category: "Pre-Made",
         image: WomanEmbroidery3,
         new_price: 35.0,
     },
     {
-        id: 15,
+        id: 14,
         name: "Polo Work Logo Embroidery",
-        catagory: "Customizable",
+        category: "Pre-Made",
         image: ManEmbroidery1,
         new_price: 40.0,
     },
     {
-        id: 16,
+        id: 15,
         name: "T-Shirt Logo Embroidery",
-        catagory: "Customizable",
+        category: "Pre-Made",
         image: ManEmbroidery2,
         new_price: 35.0,
     },
     {
-        id: 17,
+        id: 16,
         name: "Beanie Logo Embroidery",
-        catagory: "Customizable",
+        category: "Pre-Made",
         image: ManEmbroidery3,
         new_price: 25.0,
     },
     {
-        id: 18,
+        id: 17,
         name: "Hat Logo Embroidery",
-        catagory: "Customizable",
+        category: "Pre-Made",
         image: beanieEmbroidery,
         new_price: 25.0,
     },
     {
-        id: 19,
+        id: 18,
         name: "Sash Logo Embroidery",
-        catagory: "Customizable",
+        category: "Pre-Made",
         image: sashEmbroidery,
         new_price: 35.0,
     },

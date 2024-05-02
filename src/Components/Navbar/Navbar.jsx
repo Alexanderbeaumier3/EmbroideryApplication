@@ -13,7 +13,7 @@ const Navbar = () => {
         <nav className='navbar'>  
             <div className="nav-logo">
                 <img src={logo} alt="D&B Embroidery Logo" /> 
-                <p>D&B Embroidery</p>
+                <p>D&B EMBROIDERY</p>
             </div>
             <ul className="nav-menu">
                 <li onClick={() => { setMenu("shop") }}>

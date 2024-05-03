@@ -21,7 +21,6 @@ const ShopCategory = (props) => {
 
     return (
         <div className="shop-category">
-           <img src={props.banner} alt="" />
            <div className="shopcategory-indexSort">
             <p>
                 <span>Showing 1-9</span> out of {sortedProducts.length} products
@@ -37,7 +36,9 @@ const ShopCategory = (props) => {
          </div>
         <div className="shopcategory-products">
             {sortedProducts.map((item,i) => (
-                <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} />
+                <div className="product-item" key={i}>
+                    <Item id={item.id} name={item.name} image={item.image} new_price={item.new_price} />
+                </div>
             ))}
         </div>
     </div>

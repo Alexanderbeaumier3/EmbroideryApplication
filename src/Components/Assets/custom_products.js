@@ -29,7 +29,7 @@ let custom_products = [
     },
     {
         id: 2,
-        name: "Childrens T-Shirt",
+        name: "Youth T-Shirt",
         category: "Customizable",
         image: youthShirt,
         new_price: 20.0,
@@ -143,7 +143,7 @@ let custom_products = [
     },
     {
         id: 17,
-        name: "Hat Logo Embroidery",
+        name: "Beanie Embroidery",
         category: "Pre-Made",
         image: beanieEmbroidery,
         new_price: 25.0,

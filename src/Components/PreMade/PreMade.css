@@ -10,7 +10,7 @@
 }
 
 .premade-collections h1 {
-    font-size: 2em;
+   font-size: 2em;
     color: #333;
     margin-bottom: 20px;
 }
@@ -30,17 +30,8 @@
 }
 
 .collections .item img {
-    width: 300px;   /* Added specific width */
-    height: 300px;  /* Added specific height */
-    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
     border-radius: 5px;
-}
-
-@media screen and (max-width: 768px) {
-    .collections {
-        grid-template-columns: 1fr;
-    }
-    .collections .item img {
-        width: 100%;  /* Adjust width to 100% for smaller screens */
-    }
 }
